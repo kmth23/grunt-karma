@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="IE 11.0.0 (Windows 8.1)" package="" timestamp="2014-11-11T16:20:16" id="0" hostname="idea-PC" tests="2" errors="0" failures="1" time="0.003">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; Touch; .NET4.0E; .NET4.0C; .NET CLR 3.5.30729; .NET CLR 2.0.50727; .NET CLR 3.0.30729; Tablet PC 2.0; MALNJS; rv:11.0) like Gecko"/>
+    </properties>
+    <testcase name="test" time="0.003" classname="IE 11.0.0 (Windows 8.1).Hello Test">
+      <failure type="">Expected &apos;test1&apos; to equal &apos;test&apos;.
+Error: Expected &apos;test1&apos; to equal &apos;test&apos;.
+   at Anonymous function (C:/Users/hoge/Desktop/grunt-karma/web-resources/spec/test.js:6:5)
+</failure>
+    </testcase>
+    <testcase name="test2" time="0" classname="IE 11.0.0 (Windows 8.1).Hello Test"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+  <testsuite name="Firefox 30.0.0 (Windows 8.1)" package="" timestamp="2014-11-11T16:20:18" id="0" hostname="idea-PC" tests="2" errors="0" failures="1" time="0.004">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0"/>
+    </properties>
+    <testcase name="test" time="0.003" classname="Firefox 30.0.0 (Windows 8.1).Hello Test">
+      <failure type="">Expected &apos;test1&apos; to equal &apos;test&apos;.
+@C:/Users/hoge/Desktop/grunt-karma/web-resources/spec/test.js:6:5
+env.executeFiltered@C:/Users/hoge/Desktop/grunt-karma/node_modules/karma-jasmine/lib/boot.js:126:7
+createStartFn/&lt;@C:/Users/hoge/Desktop/grunt-karma/node_modules/karma-jasmine/lib/adapter.js:171:5
+[2]&lt;/Karma/this.loaded@http://localhost:9876/karma.js:189:7
+@http://localhost:9876/context.html:43:5
+
+</failure>
+    </testcase>
+    <testcase name="test2" time="0.001" classname="Firefox 30.0.0 (Windows 8.1).Hello Test"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+  <testsuite name="Chrome 38.0.2125 (Windows 8.1)" package="" timestamp="2014-11-11T16:20:20" id="0" hostname="idea-PC" tests="2" errors="0" failures="1" time="0.012">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.3; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/38.0.2125.111 Safari/537.36"/>
+    </properties>
+    <testcase name="test" time="0.011" classname="Chrome 38.0.2125 (Windows 8.1).Hello Test">
+      <failure type="">Expected &apos;test1&apos; to equal &apos;test&apos;.
+Error: Expected &apos;test1&apos; to equal &apos;test&apos;.
+    at Object.&lt;anonymous&gt; (C:/Users/hoge/Desktop/grunt-karma/web-resources/spec/test.js:6:15)
+</failure>
+    </testcase>
+    <testcase name="test2" time="0.001" classname="Chrome 38.0.2125 (Windows 8.1).Hello Test"/>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
